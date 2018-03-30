@@ -8,7 +8,7 @@ def hello():
 	environment = "Hello World!\n"
 	for key, value in os.environ.items():
 		environment += str(key) + ":" + str(value) + ";\n"
-    return environment
+	return environment
 
 if __name__ == "__main__":
-    application.run()
+	application.run()
